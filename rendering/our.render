@@ -1,0 +1,5 @@
+script: "/rendering/our.render_script"
+materials {
+  name: "lighting_quad"
+  material: "/main/materials/quad.material"
+}

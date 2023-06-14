@@ -1,0 +1,35 @@
+[bootstrap]
+main_collection = /main/main.collectionc
+render = /rendering/our.renderc
+
+[script]
+shared_state = 1
+
+[project]
+title = Walking astronaut tutorial
+dependencies = 
+
+[display]
+width = 1280
+height = 768
+fullscreen = 0
+
+[profiler]
+track_cpu = 1
+
+[physics]
+gravity_y = 0.0
+
+[render]
+clear_color_red = 0.1
+clear_color_green = 0.1
+clear_color_blue = 0.1
+clear_color_alpha = 1.0
+
+[graphics]
+default_texture_min_filter = nearest
+default_texture_mag_filter = nearest
+
+[tilemap]
+max_tile_count = 16048
+
